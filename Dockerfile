@@ -21,14 +21,7 @@ WORKDIR /workdir
 RUN conda create -n myenv python=3.10
 
 RUN /bin/bash -c ". activate myenv" 
-   #&& conda install -c anaconda -y django  \
-   #&& conda install -c conda-forge mysql-connector-python -y \
-   #&& conda install -c conda-forge ezdxf -y 
-   #&& conda install -c conda-forge opencv \
-   #&& conda install -c anaconda matplotlib
 
-
-   # && conda install -c conda-forge sshtunnel -y
 
 
 # コンテナ側のリッスンポート番号
